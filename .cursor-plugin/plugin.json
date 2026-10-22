@@ -1,0 +1,22 @@
+{
+  "name": "israel-mortgage-analysis",
+  "description": "Analyze Israeli mortgage offers (אישור עקרוני), amortization schedules, and payoff balance reports against official Bank of Israel series and a consented pool of uploaded offers via Mashkanta-Buddy MCP.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Mashkanta-Buddy",
+    "url": "https://www.mashkanta-buddy.com"
+  },
+  "homepage": "https://www.mashkanta-buddy.com/ai/",
+  "repository": "https://github.com/omricarmel/mashkanta-buddy-mcp",
+  "license": "MIT",
+  "keywords": [
+    "israel",
+    "mortgage",
+    "mashkanta",
+    "bank-of-israel",
+    "mcp",
+    "directive-451"
+  ],
+  "skills": "./skills/",
+  "mcpServers": "./.mcp.json"
+}

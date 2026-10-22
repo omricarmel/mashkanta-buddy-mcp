@@ -1,0 +1,27 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.omricarmel/mashkanta-buddy",
+  "title": "Mashkanta-Buddy (משכנתא באדי)",
+  "description": "Israeli mortgage statistics and dashboard generator vs. Bank of Israel series (not advice).",
+  "version": "1.0.0",
+  "websiteUrl": "https://www.mashkanta-buddy.com/ai/",
+  "repository": {
+    "url": "https://github.com/omricarmel/mashkanta-buddy-mcp",
+    "source": "github"
+  },
+  "icons": [
+    {
+      "src": "https://www.mashkanta-buddy.com/favicon.svg",
+      "mimeType": "image/svg+xml",
+      "sizes": [
+        "any"
+      ]
+    }
+  ],
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://www.mashkanta-buddy.com/mcp"
+    }
+  ]
+}
